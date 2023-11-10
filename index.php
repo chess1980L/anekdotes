@@ -17,7 +17,7 @@ use core\base\controller\JScontroller;
 use core\base\controller\RouteController;
 use core\base\exceptions\RouteException;
 
-//test
+// test
 
 $json = file_get_contents('php://input');
 $crud = json_decode($json, true);
