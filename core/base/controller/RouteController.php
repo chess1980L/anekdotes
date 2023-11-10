@@ -52,7 +52,7 @@ class RouteController extends BaseController
                 if (isset($url[0]) && !is_numeric($url[0]) && $url[0] != "") {
                     $this->parameters['tag'] = $url[0];
 
-                    if (isset($url[0]) && is_numeric($url[1])) {
+                    if (isset($url[0]) && isset($url[1]) && is_numeric($url[1])) {
                         $this->parameters['page'] = $url[1];
                     }
                 }

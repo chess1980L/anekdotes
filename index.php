@@ -1,5 +1,9 @@
 <?php
 
+ini_set('display_errors', 1);
+ini_set('error_reporting', E_ALL);
+
+
 define('VG_ACCESS', true);
 
 header('Content-Type:text/html;charset=utf-8');
